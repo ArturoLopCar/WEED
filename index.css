@@ -64,6 +64,28 @@ body{
     margin-left:0.5rem;
 }
 
+.nav-box h2:hover{
+  text-align: center;
+   font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+     color: #fff;
+   text-shadow: 0 0 10px #1100ff, 0 0 20px #1100ff, 0 0 30px #1100ff, 0 0 40px #1100ff, 0 0 50px #1100ff, 0 0 60px #1100ff, 0 0 70px #1100ff, 0 0 90px #1100ff;
+ }
+ 
+ to {
+    color: gray;
+   text-shadow: 0 0 20px #1100ff, 0 0 30px #1100ff, 0 0 40px #1100ff, 0 0 50px #1100ff, 0 0 60px #1100ff, 0 0 70px #1100ff, 0 0 80px #1100ff, 0 1 90px #1100ff;
+ }
+}
+
+
+
 /* MAIN */
 
 main{
