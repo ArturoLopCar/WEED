@@ -6,9 +6,11 @@ html{
 
 body{
     
-    background-color:black;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 10px;
+    margin: 0;
+    background-color: black;
+    
 }
 
 /* SCROLL BAR */
@@ -60,19 +62,15 @@ body{
 /* HEADER */
 
 .logo{
-    background-color: black;
+    
     width:255px;
     height:125px;
 
 }
 
 .nav{
-    background:black;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding-top: 12px;
     margin-bottom: 50px;
+    height: 100vh;
 }
 
 .nav a{
@@ -86,13 +84,16 @@ body{
 }
 
 .logo-box{
-    padding-left:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-box{
+    height: 20%;
     display:flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .nav-box a{
@@ -154,7 +155,14 @@ main{
     color: white;
 }
 
+.main-video{
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+}
+
 .home-video{
+    
     width: 100%;
     height: 100%;
 }
