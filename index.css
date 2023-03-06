@@ -271,6 +271,7 @@ video{
 
 .spotify-title{
     color: #1DB954;
+    text-align: center;
 }
 
 .spotify-title_container{
@@ -386,6 +387,7 @@ video{
 .merch-fans_title{
     font-size: 40px;
     color: white;
+    text-align:center;
 }
 
 /* NEXT SHOWS */
@@ -556,6 +558,29 @@ video{
     -webkit-transform: rotate(270deg);
 
     /* background-image: url("img/scrollTop.svg"); */
+}
+
+@media (max-width: 1200px){
+    .videos-box-container{
+        width: 100%;
+    }
+
+    .merch{
+        width: 90%;
+    }
+
+    .spotify{
+        width: 80%;
+    }
+
+    .show_button{
+        display: flex;
+        align-items: center;
+    }
+
+    .show{
+        margin-bottom: 50px;
+    }
 }
 
 /* FOOTER */
