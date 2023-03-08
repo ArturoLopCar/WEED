@@ -140,6 +140,7 @@ body{
         display: none;
     }
 
+
     .main-videoxx{
         width:99.9vw;
     }
@@ -563,6 +564,10 @@ video{
 @media (max-width: 1200px){
     .videos-box-container{
         width: 100%;
+    }
+
+    main{
+        background-size: cover;
     }
 
     .merch{
