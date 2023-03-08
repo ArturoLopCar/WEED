@@ -588,6 +588,31 @@ video{
         width: 100%;
     }
 
+    .title-box{
+        width: 100%;
+    }
+
+    .title-merch{
+        width: 100%;
+    }
+
+    .merch-fans{
+        width: 100%;
+    }
+
+    .next-shows-title_box{
+        width: 100%;
+    }
+
+    .next-shows{
+        width: 95%;
+    }
+
+    .show_details{
+        align-items: center;
+    }
+
+
     .ghost{
         display: none;
     }
