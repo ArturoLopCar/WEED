@@ -181,6 +181,10 @@ main{
     width: 100%; */  
 }
 
+.logo-video{
+    display: none;
+}
+
 video{
     position: absolute;
     right: 0;
@@ -563,6 +567,19 @@ video{
 
 @media (max-width: 1200px){
     .videos-box-container{
+        width: 100%;
+    }
+
+    .home-video{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-movil{
+        position: relative;
+        z-index: 300;
         width: 100%;
     }
 
