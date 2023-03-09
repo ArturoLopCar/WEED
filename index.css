@@ -569,9 +569,22 @@ video{
     /* background-image: url("img/scrollTop.svg"); */
 }
 
+#preloader{
+    background: #000 url("img/loading.gif") no-repeat center center;
+    background-size:75%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 400;
+}
+
 @media (max-width: 1200px){
     .videos-box-container{
         width: 100%;
+    }
+
+    #preloader{
+        background-size: 240%;
     }
 
     .home-video{
