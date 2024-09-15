@@ -643,8 +643,7 @@ video{
     }
 
     main{
-        background-size: contain; /* La imagen se ajusta sin recortar */
-        background-position: center center; /* Ajustar la posición de la imagen */ 
+        background-size: cover;
     }
 
     .merch{
