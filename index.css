@@ -159,7 +159,6 @@ main{
     background-attachment: fixed;
     background-position: 48% 18%;
     background-repeat: no-repeat;
-    
 }
 
 .title{
@@ -644,8 +643,8 @@ video{
     }
 
     main{
-        
-        -webkit-background-size: cover;
+      background-image: none;
+      -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
@@ -659,11 +658,12 @@ video{
         left:0;
         right:0;
         z-index:-1; /* needed to keep in the background */
-        background: url(https://www.w3schools.com/css/trolltunga.jpg) center center;
+        background: url(img/slide7.jpg) center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        background-position: 48% 18%;
     }
 
     .merch{
