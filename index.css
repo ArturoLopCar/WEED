@@ -188,6 +188,64 @@ main{
     display: none;
 }
 
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    /* width: 250px; */
+    background-color: #333;
+    z-index: 1000;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.mobile-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-bottom: 45px;
+}
+
+.mobile-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.mobile-social a{
+    margin-bottom: 20px;
+}
+
+.mobile-menu.active {
+    display: flex;
+}
+
+/* Estilo Sticky */
+.nav-mobile {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 video{
     position: absolute;
     right: 0;
@@ -579,8 +637,20 @@ video{
 
 @media (max-width: 1200px){
 
-    header{
+    .nav-box, .nav-social {
         display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    header{
+        /* display: none; */
+    }
+
+    .home-video{
+        display: none
     }
 
     .main-weedx{

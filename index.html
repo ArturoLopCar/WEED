@@ -61,6 +61,29 @@
                     <a target="_blank" href="https://www.facebook.com/weexistevendead/"><img src="img/icons8-facebook.svg"></a>
                     <a target="_blank" href="https://twitter.com/weexistevendead"><img class="footer_icons" src="img/icons8-twitter.svg"></a> -->
                 </div>
+        
+                <!-- Menú móvil -->
+            </nav>
+            <nav class="nav-mobile">
+                <div class="hamburger-menu" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="mobile-menu" id="mobile-menu">
+                    <a class="mobile-link" href="#spotify">MUSIC</a>
+                    <a class="mobile-link" href="#store">STORE</a>
+                    <a class="mobile-link" href="#shows">SHOWS</a>
+                    <a class="mobile-link" href="#videos">VIDEOS</a>
+                    <a class="mobile-link" href="mailto:info@wildthingmusicgroup.com?cc=weexistevendead@gmail.com">CONTACT</a>
+                    <div class="mobile-social">
+                        <a target="_blank" href="https://www.youtube.com/c/WeExistEvenDead"><img class="footer_icons" src="img/youtube_icon_nav.png"></a>
+                        <a target="_blank" href="https://www.instagram.com/weexistevendead/?hl=es"><img class="footer_icons" src="img/instragram_icon_nav.png"></a>
+                        <a target="_blank" href="https://www.facebook.com/weexistevendead/"><img class="footer_icons" src="img/facebook_icon_nav.png"></a>
+                        <a target="_blank" href="https://twitter.com/weexistevendead"><img class="footer_icons" src="img/twitter_icon_nav.png"></a>
+                        <a target="_blank" href="https://www.tiktok.com/@weexistevendead"><img class="footer_icons" src="img/tiktok_icon_nav.png"></a>
+                    </div>
+                </div>
             </nav>
         </header>
         <!-- <main> -->
@@ -425,6 +448,13 @@
                 </ul>
             </div>
         </footer> -->
+        <script>
+            function toggleMobileMenu() {
+                var menu = document.getElementById('mobile-menu');
+                menu.classList.toggle('active');
+            }
+        </script>
+        
         <script src="jquery.min.js"></script>
         <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> -->
         <script src="owl.carousel.min.js"></script>
