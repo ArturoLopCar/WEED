@@ -643,8 +643,8 @@ video{
     }
 
     main{
-        background-size: cover;
-    }
+        background-attachment: scroll; /* Cambiar a scroll para móviles */
+        background-position: center center;    }
 
     .merch{
         width: 90%;
