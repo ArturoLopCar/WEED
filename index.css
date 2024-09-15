@@ -643,7 +643,8 @@ video{
     }
 
     main{
-        background-size: auto;
+        background-size: cover;
+        background-attachment:scroll
     }
 
     .merch{
