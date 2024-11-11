@@ -517,15 +517,14 @@ video{
     display: flex;
     justify-content:center;
     align-items:center;
-    width:100%;
-}
-
-.videos-box-container{
-    width:75%;
+    flex-flow: row wrap;
+    margin: auto;
+    width: 75%;
 }
 
 .video-box{
-    
+    flex: 48%;
+    margin: 1% 1%;
 }
 
 .video-box__title{
@@ -552,6 +551,24 @@ video{
 
 .video-box__title a:hover{
     color: red;
+}
+
+.video-box_screen{
+    flex: 1;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0; 
+}
+
+.video-box_screen iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+    display: block;
+    width: 100%; 
+    height: 100%; /* 16:9 */
 }
 
 #scrollTop{
@@ -687,6 +704,10 @@ video{
 
     .show{
         margin-bottom: 50px;
+    }
+
+    .video-box{
+        flex: 75%;
     }
 }
 
