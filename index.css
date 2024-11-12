@@ -161,10 +161,11 @@ body{
 /* MAIN */
 
 main{
-    background-image: url(img/slide7.jpg); 
+    background-image: url(img/background/desktop.jpg); 
     background-attachment: fixed;
-    background-position: 48% 18%;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .title{
@@ -338,7 +339,7 @@ video{
 
 .merch-link_box{
     border:1px solid black;
-    background-image: url("img/slide1.jpg");
+    background-image: url("img/carousel/slide1.jpg");
     border-radius: 20px;
 }
 
@@ -349,7 +350,7 @@ video{
     margin-top: 75px;
     color:white;
     border:1px solid black;
-    background-image: url("img/slide10.jpg");
+    background-image: url("img/carousel/slide2.jpg");
     /* background-color:white; */
     border-radius: 20px;
     width: 50%;
@@ -681,7 +682,7 @@ video{
         left:0;
         right:0;
         z-index:-1; /* needed to keep in the background */
-        background: url(img/mobile.jpg) center center;
+        background: url(img/background/mobile.jpg) center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
