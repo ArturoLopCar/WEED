@@ -1,22 +1,3 @@
-$('.owl-one').owlCarousel({
-    loop: true,
-    margin: 10,
-    autoplay:true,
-    autoplayTimeout:3000 ,
-    nav: true,
-    responsive:{
-        0:{
-            items: 1
-        },
-        600:{
-            items: 1
-        },
-        1000:{
-            items: 2
-        }
-    }
-})
-
 $('.owl-two').owlCarousel({
     loop: true,
     margin: 10,
@@ -34,6 +15,25 @@ $('.owl-two').owlCarousel({
             items: 4
         }
     }
+})
+
+$('.owl-one').owlCarousel({
+  loop: true,
+  margin: 10,
+  autoplay:true,
+  autoplayTimeout:3000 ,
+  nav: true,
+  responsive:{
+      0:{
+          items: 1
+      },
+      600:{
+          items: 1
+      },
+      1000:{
+          items: 2
+      }
+  }
 })
 
 // Get the button:
