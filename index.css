@@ -714,7 +714,7 @@ video{
 /* FOOTER */
 .footer{
     height: 130px;
-    background-color: #rgba(12, 12, 12);
+    background-color: rgba(12, 12, 12);
     text-decoration: none;
     color: red;
     display: flex;
