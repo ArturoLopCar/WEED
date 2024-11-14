@@ -165,7 +165,6 @@ main{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
 }
 
 .title{
@@ -350,7 +349,7 @@ video{
     margin-top: 75px;
     color:white;
     border:1px solid black;
-    background-image: url("img/carousel/slide2.jpg");
+    background-image: url("img/slide10.jpg");
     /* background-color:white; */
     border-radius: 20px;
     width: 50%;
