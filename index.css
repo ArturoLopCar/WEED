@@ -886,7 +886,8 @@ textarea {
     background-position-x: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 115px;
+    height: 100vh;
 }
 
 .bio-container {
